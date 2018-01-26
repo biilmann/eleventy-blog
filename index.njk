@@ -4,14 +4,6 @@ tags: nav
 navtitle: Home
 ---
 
-<div class="warning">
-	<ol>
-		<li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>.eleventy.js</code> with your configuration preferences.</li>
-		<li>Delete this message from <code>index.njk</code>.</li>
-	</ol>
-</div>
-
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
 
